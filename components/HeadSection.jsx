@@ -32,7 +32,7 @@ export default function HeadSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-red-500/50 to-blue-500/50"></div>
         <div className="absolute bottom-8 left-8 right-8 p-6 bg-black/70 rounded-2xl">
           <p className="text-sm">
-            Step into a world where every pixel tells a story, each photograph is a visual poem. In my portfolio, you'll find a collection of moments frozen in time, a testament to my passion for photography. Explore the visual tapestry I've woven and join me on this creative journey through the lens.
+            Step into a world where every pixel tells a story, each photograph is a visual poem. In my portfolio, you&apos;ll find a collection of moments frozen in time, a testament to my passion for photography. Explore the visual tapestry I&apos;ve woven and join me on this creative journey through the lens.
           </p>
         </div>
       </div>
