@@ -62,7 +62,7 @@ const { height } = dimension;
 
 const y = useTransform(scrollYProgress, [0, 1], [0, height * 2])
 const y2 = useTransform(scrollYProgress, [0, 1], [0, height * 1.3])
-const y3 = useTransform(scrollYProgress, [0, 1], [0, height * 1.25])
+const y3 = useTransform(scrollYProgress, [0, 1], [0, height * 3.25])
 const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 3])
 
   useEffect( () => {
@@ -76,9 +76,6 @@ const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 3])
 
     requestAnimationFrame(raf)
 
-    
-
-
     const resize = () => {
 
       setDimension({width: window.innerWidth, height: window.innerHeight})
@@ -86,15 +83,11 @@ const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 3])
     }
 
 
-
     window.addEventListener("resize", resize)
 
     requestAnimationFrame(raf);
 
     resize();
-
-
-
     return () => {
 
       window.removeEventListener("resize", resize);

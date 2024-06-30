@@ -2,11 +2,9 @@ import styles from './ZoomParallax.module.scss';
 
 import Picture1 from '../public/images/14.jpeg';
 import Picture2 from '../public/images/8.jpeg';
-import Picture3 from '../public/images/1.jpeg';
+import Picture3 from '../public/images/18.jpeg';
 import Picture4 from '../public/images/15.jpeg';
 import Picture5 from '../public/images/24.jpeg';
-import Picture6 from '../public/images/2.jpeg';
-import Picture7 from '../public/images/5.jpeg';
 
 
 import Image from 'next/image';

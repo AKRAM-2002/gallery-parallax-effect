@@ -11,7 +11,6 @@ export default function HeadSection() {
           <li><Link href="/" className="hover:text-gray-300">Home</Link></li>
           <li><Link href="/about" className="hover:text-gray-300">About Me</Link></li>
           <li><Link href="/portfolio" className="hover:text-gray-300">Portfolio</Link></li>
-          <li><Link href="/services" className="hover:text-gray-300">Services</Link></li>
         </ul>
       </nav>
       <button className="bg-white text-black px-4 py-2 rounded">Contact Me</button>
